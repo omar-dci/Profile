@@ -1,6 +1,20 @@
 
 
-/*P{color:red;fontsize:30px:background-color:blu;}*/
-.clas1{color:red;font-size:30px;background-color:blue;}
-.clas2{color:blue;font-size:30px;background-color:red;}
 
+
+.th1{font-size:30px;
+    border-style: ridge;
+    border-color:tomato}
+    .img1{background-size: contain ;background-repeat:no-repeat ;height: 100% ;width: 100%;background-image: url('../Images/img1.jpg')}
+    .img2{background-size: contain ;background-repeat:no-repeat ;height: 50px ;width: 200px;background-image: url('../Images/img2.png')}#
+    .img3{background-size: contain ;background-repeat:no-repeat ;height: 50px ;width: 200px;background-image: url('../Images/img3.jpg')}
+    .img4{background-size: contain ;background-repeat:no-repeat ;height: 50px ;width: 200px;background-image: url('../Images/img4.jpg')}
+    .img5{background-size: contain ;background-repeat:no-repeat ;height: 50px ;width: 200px;background-image: url('../Images/img5.jpg')}
+    .img6{background-size: cover ;background-repeat:no-repeat ;height: 100% ;width: 100%;background-image: url('../Images/img6.jpg')}
+    .img7{background-size: contain ;background-repeat:no-repeat ;height: 50px ;width: 200px;background-image: url('../Images/img7.jpg')}
+    .img8{background-size: contain ;background-repeat:no-repeat ;height: 50px ;width: 200px;background-image: url('../Images/img8.jpg')}
+    .img9{background-size: contain ;background-repeat:no-repeat ;height: 50px ;width: 200px;background-image: url('../Images/img9.jpg')}
+    .img10{background-size: cover ;background-repeat:no-repeat ;height: 100% ;width: 100%;background-image: url('../Images/img10.jpg')}
+    .img11{background-size: cover ;background-repeat:no-repeat ;height:100% ;width: 100%;background-image: url('../Images/img11.jpg')}
+    .img12{background-size: cover ;background-repeat:no-repeat ;height:100% ;width: 100%;background-image: url('../Images/img12.jpg')}
+    .img13{background-size: cover ;background-repeat:no-repeat ;height:100% ;width: 100%;background-image: url('../Images/img13.jpg')}
