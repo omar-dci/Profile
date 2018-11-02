@@ -58,7 +58,7 @@ window.onload = function () {
 }
 
 function galaryF() {
-    var xy = x
+    var xy = x;
     setInterval(function galaryF() {
 
 
