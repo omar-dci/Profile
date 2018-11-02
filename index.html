@@ -1,34 +1,83 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>omar</title>
+    <title>Tabs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/css.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <script>
+        var lang="en";
+        var counter=1;
+        var limCounter=5;
+        </script>
+    <script src="./js/style.js"></script>
 </head>
-<body class="img10">
+
+<body id="imSlider" style="background-size: cover ;background-repeat:no-repeat ;height: 100% ;width: 100%;background-image: url('./imgs/1.jpg')">
+    <div><a href="#" onclick="showmenu()" class="menubutton">Menu</a>
+
+        <ul id="mainmenu" class="nav">
+            <li class="active"><a href="#" onclick="homeClick(this)">Home</a></li>
+            <li><a href="#" onclick=aboutClick(this)>About</a></li>
+            <li><a href="#" onclick="contactClick(this)">Contact</a></li>
+            <li><a href="#" onclick="cvClick(this)">Gallary</a></li>
+            <li class="dropdown"><a href="./DE/index.html">De</a>
+                <div class="dropdown-content">
+                    <a href="./index.html">En</a>
+                    <a href="./AR/الصفحة الرئيسية.html">AR</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="Contactdiv" style="display: none;">
+
+
+        <div class="div1">firstname<input type="email">Lastname<input type="email"></div><br />
+        <div class="div1"><textarea cols="10" placeholder="Describe ur issue"></textarea> </div><br />
+        <div class="div1">Ur Email<input type="email"></div><br />
+        <div class="div1">i will Respond as soon as i can thank you</div>
+        <br />
+        <div ><input class="div1" type="submit"></div>
+        </select><br />
+
+
+        <div><a href="https://www.facebook.com/omar.belal.09" alt="" target="_blank"><img src="./imgs/Messenger_Icon.png" width="50px"></a>
+            <img src="./imgs/instagram_icon-300x300.jpg" width="50px"><a href="" alt></a>
+            <img src="./imgs/Gmail_Icon.png" width="50px"><a href="" alt></a></div>
+    </div>
+
+
+    <div id="Aboutdiv" style="display: none">
+        <pre style="font-size:30px;color: rgb(97, 92, 85)">Name:Omar Belal
+Plce&Date of Birth:Damaskus 1997
+Profession:Web devloper</pre>
+        <div><img src="./imgs/profile.jpg" width="350px" height="350px" alt="">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9517.034052662304!2d9.995561536910447!3d53.39231537981714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1941d3d15a011%3A0xae8685fbcf6ccc73!2sHittfeld%2C+21218+Seevetal!5e0!3m2!1sde!2sde!4v1541074862180"
+                width="325" height="325" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+
+
+
+
+    </div>
+    <div id="homediv">fffff</div>
+    <div id="cvdiv" style="display:none;">
+        <div class="galary1"><img src="./imgs/1.jpg" id="galary2"><a href="#" onclick="galaryF()">Hab</a>
+
+
+        </div>
         
-    <table style=" width:225mm; border-style: outset;border-color:darkred;color: darkred;border-width: 10px;border: height 10px; ">
-<tr>
-<th class="th1"><a href="./HOME.html" target="blank">Home</a></th>
-<th style="font-size:30px;border-style: ridge;border-color:tomato"><a href="./About.html" target="blank">About</a></th>
-<th style="font-size:30px;border-style: ridge;border-color:tomato"><a href="./CONTACT.html" target="blank">Contact</a></th>
-<th style="font-size:30px;border-style: ridge;border-color:tomato"><a href="./Cv.html" target="blank">Cv</a></th>
-<th style="font-size:30px;border-style: ridge;border-color:tomato"><a href="./DE/index.html" target="blank">DE</a></th>
-</tr>
-</table><h1>Welcome to my site</h1><table>     <tr>  
-<td><div style="background-size: cover ;background-repeat:no-repeat ;height: 80mm ;width: 225mm;background-image: url('backround.jpg')"></div>
-</td>
-</tr>
-    </table>
-<table>
+
+        </div>
 
 
 
 
+    </div>
 
-    </table>
 </body>
+
 </html>

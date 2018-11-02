@@ -5,10 +5,10 @@
 .th1{font-size:30px;
     border-style: ridge;
     border-color:tomato}
-    .img1{background-size: contain ;background-repeat:no-repeat ;height: 100% ;width: 100%;background-image: url('../Images/img1.jpg')}
-    .img2{background-size: contain ;background-repeat:no-repeat ;height: 50px ;width: 200px;background-image: url('../Images/img2.png')}#
+    .img1{background-size: auto ;background-repeat:no-repeat ;height: 120px ;width: 100%;background-image: url('../Images/img1.jpg')}
+    .img2{background-size: contain ;background-repeat:no-repeat ;height: 50px ;width: 200px;background-image: url('../Images/img2.png')}
     .img3{background-size: contain ;background-repeat:no-repeat ;height: 50px ;width: 200px;background-image: url('../Images/img3.jpg')}
-    .img4{background-size: contain ;background-repeat:no-repeat ;height: 50px ;width: 200px;background-image: url('../Images/img4.jpg')}
+    .img4{background-size: auto ;float: left;background-repeat:no-repeat ;height: 50px ;width: 200px;background-image: url('../Images/img4.jpg')}
     .img5{background-size: contain ;background-repeat:no-repeat ;height: 50px ;width: 200px;background-image: url('../Images/img5.jpg')}
     .img6{background-size: cover ;background-repeat:no-repeat ;height: 100% ;width: 100%;background-image: url('../Images/img6.jpg')}
     .img7{background-size: contain ;background-repeat:no-repeat ;height: 50px ;width: 200px;background-image: url('../Images/img7.jpg')}
@@ -18,3 +18,66 @@
     .img11{background-size: cover ;background-repeat:no-repeat ;height:100% ;width: 100%;background-image: url('../Images/img11.jpg')}
     .img12{background-size: cover ;background-repeat:no-repeat ;height:100% ;width: 100%;background-image: url('../Images/img12.jpg')}
     .img13{background-size: cover ;background-repeat:no-repeat ;height:100% ;width: 100%;background-image: url('../Images/img13.jpg')}
+    .img14{background-size: cover ;background-repeat:no-repeat ;height:100% ;width: 100%;background-image: url('../Images/img14.jpg')}
+    .img15{background-size: cover ;background-repeat:no-repeat ;height:100% ;width: 100%;background-image: url('../Images/img15.jpg')}
+.th1:hover{border: color blue top radius 20px 20px 20px 20px;background-color: red;font-size: 30px;font-family: fantasy}
+.item{background-color: chocolate ;}
+*{
+    background-origin: content-box;
+}
+.nav{ border-style: outset;
+    border-color:blue;
+    color: blue;
+    border-width: 10px;
+    border: height 10px;
+    background-color: ;
+    font-family: fantasy;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 2px;
+    /* width: 350px; */
+    overflow: hidden;
+}
+.nav>li>a{
+    text-decoration: none;
+    display: block;
+    /* width: 20%; */
+    background-color: light red;
+    color:darkred;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.nav>li>a:hover{border-style: outset ;color: green ;
+    background-color:red;font-size: 30px;
+    color: black;
+}
+.active>a{
+    background-color:tomato!important;
+    color: black !important;
+}
+.nav>li{
+    border-bottom: 1px solid red;
+    float: left;
+    width: 20%;
+}
+.dropdown-content{
+
+    display: none;
+    position: absolute;
+    min-width: 20%;
+    background-color: darkred;
+}
+.dropdown-content>a{
+    text-decoration: none;
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.dropdown-content>a:hover{
+    background-color: rgb(212, 196, 196)
+}
+.dropdown:hover>.dropdown-content{
+    display: block;
+}
