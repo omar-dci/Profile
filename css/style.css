@@ -102,5 +102,6 @@
         width: 20px;
         height:20px;
         margin: auto;
-        text-decoration: none
+        text-decoration: none;
+        float: left;
     }
