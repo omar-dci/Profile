@@ -90,18 +90,20 @@
         float: left;
         text-align: center;
         
+        
     }
     .galary1>img{
-        width: 300px;
-        height: 300px;
-        border-radius: 50%
+        width: 400px;
+        height: 400px;
+        border-radius: 60%
     }
     .galary1>a{
-        border: 3px red;
+        border: 3px rgba(255, 0, 0, 0.466);border-style: dotted;
         display: block;
-        width: 20px;
+        width: 60px;
         height:20px;
         margin: auto;
         text-decoration: none;
-        float: left;
+background-color: rgba(245, 245, 245, 0.377)        
+        
     }

@@ -53,72 +53,99 @@ window.onload = function () {
             else {
                 document.getElementById("imSlider").style = "background-size: cover ;background-repeat:no-repeat ;height: 100% ;width: 100%;background-image: url('../imgs/" + counter + ".jpg')";
             }
-        }, 7000);
+        }, 5000);
     }
 }
-
+var damas = true;
+var damasInterval;
 function galaryF() {
-    var xy = x;
-    setInterval(function galaryF() {
+    if (damas) {
+        var xy = x;
+
+        damasInterval = setInterval(function galaryF() {
 
 
-        x = x + 1;
-        if (x == xc) {
-            x = xy;
-        }
-        if (lang == "en") {
-            document.getElementById("galary2").src = "./imgs/" + x + ".jpg";
-        }
-        else {
-            document.getElementById("galary2").src = "../imgs/" + x + ".jpg";
-        }
+            x = x + 1;
+            if (x == xc) {
+                x = xy;
+            }
+            if (lang == "en") {
+                document.getElementById("galary2").src = "./imgs/" + x + ".jpg";
+            }
+            else {
+                document.getElementById("galary2").src = "../imgs/" + x + ".jpg";
+            }
 
+        }
+            , 2500);
+        damas = false;
     }
-        , 400);
-
+    else {
+        clearInterval(damasInterval);
+        damas = true;
+    }
 }
+var hamburg = true;
+var hamburgInterval;
 function galaryc() {
-    var cy = c
-    setInterval(function galaryc() {
+    if (hamburg) {
+        var cy = c
+
+        hamburgInterval = setInterval(function galaryc() {
 
 
-        c = c + 1;
-        if (c == cx) {
-            c = cy;
-        }
-        if (lang == "en") {
-            document.getElementById("galary3").src = "./imgs/" + c + ".jpg";
-        }
-        else {
-            document.getElementById("galary3").src = "../imgs/" + c + ".jpg";
-        }
+            c = c + 1;
+            if (c == cx) {
+                c = cy;
+            }
+            if (lang == "en") {
+                document.getElementById("galary3").src = "./imgs/" + c + ".jpg";
+            }
+            else {
+                document.getElementById("galary3").src = "../imgs/" + c + ".jpg";
+            }
 
+        }
+            , 2500);
+        hamburg = false;
     }
-        , 400);
+    else {
+        clearInterval(hamburgInterval);
+        hamburg = true;
+    }
 }
+var istanbul = true;
+var istanbulInterval;
 function galaryb() {
-    var vy = dv
-    setInterval(function galaryb() {
+    if (istanbul) {
+        var vy = dv
+        istanbulInterval = setInterval(function galaryb() {
 
 
-        dv = dv + 1;
-        if (dv == vy) {
-            dv = vy;
-        }
-        if (lang == "en") {
-            document.getElementById("galary4").src = "./imgs/" + dv + ".jpg";
-        }
-        else {
-            document.getElementById("galary4").src = "../imgs/" + dv + ".jpg";
-        }
+            dv = dv + 1;
+            if (dv == vx) {
+                dv = vy;
+            }
+            if (lang == "en") {
+                document.getElementById("galary4").src = "./imgs/" + dv + ".jpg";
+            }
+            else {
+                document.getElementById("galary4").src = "../imgs/" + dv + ".jpg";
+            }
 
+        }
+            , 2500);
+        istanbul = false;
     }
-        , 400);
+    else {
+        clearInterval(istanbulInterval);
+        istanbul = true
+    }
 
 
 }
 
-        
+
 
 
 
